@@ -1,0 +1,28 @@
+body {
+    font-size: 24pt;
+}
+
+.app-container {
+    display: flex;
+    align-items: center;
+}
+
+.app-container__left {
+    flex: 3;
+    width: 75%;
+    padding: 0 50px;
+}
+
+.app-container__right {
+    flex: 1;
+    padding: 0 50px;
+}
+
+.customer-activity__image {
+    width: 100%;
+}
+
+.map {
+    width: 100%;
+    min-height: 400px;
+}
